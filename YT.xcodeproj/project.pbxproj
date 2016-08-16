@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		394A7D011AD2E4EE00563B69 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 394A7D001AD2E4EE00563B69 /* YTPlayerView.m */; };
+		394A7D031AD2E50000563B69 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 394A7D021AD2E50000563B69 /* Assets */; };
+		394A7D051AD2ED5500563B69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394A7D041AD2ED5500563B69 /* Images.xcassets */; };
 		394C033C1ACF281C004B2AE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C033B1ACF281C004B2AE3 /* AppDelegate.swift */; };
 		394C033E1ACF281C004B2AE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C033D1ACF281C004B2AE3 /* ViewController.swift */; };
 		394C03411ACF281C004B2AE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394C033F1ACF281C004B2AE3 /* Main.storyboard */; };
-		394C03431ACF281C004B2AE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394C03421ACF281C004B2AE3 /* Images.xcassets */; };
 		394C03461ACF281C004B2AE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 394C03441ACF281C004B2AE3 /* LaunchScreen.xib */; };
 		394C03521ACF281C004B2AE3 /* YTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C03511ACF281C004B2AE3 /* YTTests.swift */; };
+		397E97C41AD459B000583149 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397E97C31AD459B000583149 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		394A7CFE1AD2E4EE00563B69 /* YT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YT-Bridging-Header.h"; sourceTree = "<group>"; };
+		394A7CFF1AD2E4EE00563B69 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		394A7D001AD2E4EE00563B69 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		394A7D021AD2E50000563B69 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		394A7D041AD2ED5500563B69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		394C03361ACF281C004B2AE3 /* YT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		394C033A1ACF281C004B2AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		394C033B1ACF281C004B2AE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		394C033D1ACF281C004B2AE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		394C03401ACF281C004B2AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		394C03421ACF281C004B2AE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		394C03451ACF281C004B2AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		394C034B1ACF281C004B2AE3 /* YTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		394C03501ACF281C004B2AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		394C03511ACF281C004B2AE3 /* YTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTTests.swift; sourceTree = "<group>"; };
+		397E97C31AD459B000583149 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397E97C41AD459B000583149 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +68,7 @@
 		394C032D1ACF281C004B2AE3 = {
 			isa = PBXGroup;
 			children = (
+				397E97C31AD459B000583149 /* MediaPlayer.framework */,
 				394C03381ACF281C004B2AE3 /* YT */,
 				394C034E1ACF281C004B2AE3 /* YTTests */,
 				394C03371ACF281C004B2AE3 /* Products */,
@@ -77,11 +87,15 @@
 		394C03381ACF281C004B2AE3 /* YT */ = {
 			isa = PBXGroup;
 			children = (
+				394A7D041AD2ED5500563B69 /* Images.xcassets */,
+				394A7CFF1AD2E4EE00563B69 /* YTPlayerView.h */,
+				394A7D001AD2E4EE00563B69 /* YTPlayerView.m */,
 				394C033B1ACF281C004B2AE3 /* AppDelegate.swift */,
 				394C033D1ACF281C004B2AE3 /* ViewController.swift */,
 				394C033F1ACF281C004B2AE3 /* Main.storyboard */,
-				394C03421ACF281C004B2AE3 /* Images.xcassets */,
 				394C03441ACF281C004B2AE3 /* LaunchScreen.xib */,
+				394A7CFE1AD2E4EE00563B69 /* YT-Bridging-Header.h */,
+				394A7D021AD2E50000563B69 /* Assets */,
 				394C03391ACF281C004B2AE3 /* Supporting Files */,
 			);
 			path = YT;
@@ -192,9 +206,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394A7D031AD2E50000563B69 /* Assets in Resources */,
+				394A7D051AD2ED5500563B69 /* Images.xcassets in Resources */,
 				394C03411ACF281C004B2AE3 /* Main.storyboard in Resources */,
 				394C03461ACF281C004B2AE3 /* LaunchScreen.xib in Resources */,
-				394C03431ACF281C004B2AE3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +229,7 @@
 			files = (
 				394C033E1ACF281C004B2AE3 /* ViewController.swift in Sources */,
 				394C033C1ACF281C004B2AE3 /* AppDelegate.swift in Sources */,
+				394A7D011AD2E4EE00563B69 /* YTPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +352,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = YT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YT/YT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +365,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = YT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YT/YT-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +426,7 @@
 				394C03571ACF281C004B2AE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		394C03581ACF281C004B2AE3 /* Build configuration list for PBXNativeTarget "YTTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +435,7 @@
 				394C035A1ACF281C004B2AE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
